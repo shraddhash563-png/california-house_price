@@ -25,10 +25,11 @@ A baseline **Multiple Linear Regression** model was evaluated against an ensembl
   - Population per Household ($\frac{\text{population}}{\text{households}}$)
 - **Robust Model Benchmarking:** Systematic empirical comparison between parametric (OLS Linear Regression) and ensemble non-parametric methods (Random Forest)[cite: 4].
 - **Interactive UI (Streamlit):** Pre-configured geographical presets ("Urban / high income", "Inland family district", "Coastal community"), live input validation, feature scaling on inference, and dynamic top-8 feature importance charts.
+#### Machine Learning Pipeline
 
----
-
-## 🏗 Architecture & Machine Learning Pipelines
-sent by praveen anna<img width="955" height="515" alt="WhatsApp Image 2026-09-24 at 5 08 02 PM" 
-<img width="955" height="515" alt="WhatsApp Image 2026-09-24 at 5 08 02 PM" src="https://github.com/user-attachments/assets/0e7654c5-1803-42f2-bfb7-7216728e2b17" />
-# california-house_price
+* Data Collection and Import
+* Exploratory Data Analysis & Data Cleaning (Handling Nulls and Duplicates)
+* Feature Selection & Data Splitting
+* Feature Scaling (Standardization)
+* Model Building & Training
+* Model Evaluation
